@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TabsquareTest,Chrome 99.0.4844.82,,,2022-03-27 22:52:59,2022-03-27 22:53:22,23.532s,PASSED
+,,,,,,,
+Test Cases/DemoQA,Chrome 99.0.4844.82,,,2022-03-27 22:52:59,2022-03-27 22:53:22,23.231s,PASSED
+"openBrowser(""https://demoqa.com/automation-practice-form"")",Chrome 99.0.4844.82,,,2022-03-27 22:53:00,2022-03-27 22:53:12,12.025s,PASSED
+maximizeWindow(),Chrome 99.0.4844.82,,,2022-03-27 22:53:12,2022-03-27 22:53:12,0.402s,PASSED
+"waitForElementPresent(findTestObject(""DemoQAApplication/input_Name_firstName""), 0)",Chrome 99.0.4844.82,,,2022-03-27 22:53:12,2022-03-27 22:53:13,0.732s,PASSED
+"setText(findTestObject(""DemoQAApplication/input_Name_firstName""), ""VIVEK"")",Chrome 99.0.4844.82,,,2022-03-27 22:53:13,2022-03-27 22:53:14,1.233s,PASSED
+"setText(findTestObject(""DemoQAApplication/input_Name_lastName""), ""TV"")",Chrome 99.0.4844.82,,,2022-03-27 22:53:14,2022-03-27 22:53:15,0.670s,PASSED
+"setText(findTestObject(""DemoQAApplication/input_Email_userEmail""), ""vivek@gmail.com"")",Chrome 99.0.4844.82,,,2022-03-27 22:53:15,2022-03-27 22:53:15,0.681s,PASSED
+"click(findTestObject(""DemoQAApplication/label_Male""))",Chrome 99.0.4844.82,,,2022-03-27 22:53:15,2022-03-27 22:53:16,0.455s,PASSED
+"setText(findTestObject(""DemoQAApplication/input_MobNumber""), ""1234567890"")",Chrome 99.0.4844.82,,,2022-03-27 22:53:16,2022-03-27 22:53:16,0.730s,PASSED
+"sendKeys(findTestObject(""DemoQAApplication/input_Subjects_subjectsInput""), ""Test Project"")",Chrome 99.0.4844.82,,,2022-03-27 22:53:16,2022-03-27 22:53:17,0.492s,PASSED
+delay(2),Chrome 99.0.4844.82,,,2022-03-27 22:53:17,2022-03-27 22:53:19,2.043s,PASSED
+"click(findTestObject(""DemoQAApplication/label_Sports""))",Chrome 99.0.4844.82,,,2022-03-27 22:53:19,2022-03-27 22:53:19,0.439s,PASSED
+"setText(findTestObject(""DemoQAApplication/textarea_Current Address_currentAddress""), ""Bangalore"")",Chrome 99.0.4844.82,,,2022-03-27 22:53:19,2022-03-27 22:53:20,0.860s,PASSED
+"scrollToElement(findTestObject(""DemoQAApplication/button_Submit""), 0)",Chrome 99.0.4844.82,,,2022-03-27 22:53:20,2022-03-27 22:53:21,0.413s,PASSED
+"submit(findTestObject(""DemoQAApplication/button_Submit""))",Chrome 99.0.4844.82,,,2022-03-27 22:53:21,2022-03-27 22:53:21,0.427s,PASSED
+"verifyElementPresent(findTestObject(""DemoQAApplication/div_Thanks for submitting the form""), 0)",Chrome 99.0.4844.82,,,2022-03-27 22:53:21,2022-03-27 22:53:22,0.444s,PASSED
+closeBrowser(),Chrome 99.0.4844.82,,,2022-03-27 22:53:22,2022-03-27 22:53:22,0.735s,PASSED
